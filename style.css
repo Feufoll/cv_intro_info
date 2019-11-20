@@ -11,6 +11,12 @@ body
     flex-direction: column;
 }
 
+.important
+{
+	color: red;
+	font-weight: bold;
+}
+
 .header
 {
     display: flex;
