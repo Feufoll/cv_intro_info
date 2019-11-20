@@ -2,7 +2,7 @@ body
 {
     background-image: url(images/background.jpg);
     position: absolute;
-	font-family: "Courier New", Times, monospace;
+	font-family: 'Raleway', sans-serif;
 }
 
 .global_div
@@ -85,6 +85,18 @@ body
     justify-content: center;
 }
 
+table
+{
+	border: thick double;
+	border-collapse: collapse;
+}
+
+td
+{
+	border: solid;
+	text-align: center;
+}
+
 .droite_boite
 {
     display: flex;
@@ -114,6 +126,11 @@ h1
 h2
 {
     text-decoration: underline
+}
+
+p
+{
+	font-family: 'Ibarra Real Nova', serif;
 }
 
 .box
